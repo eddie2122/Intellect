@@ -1,0 +1,22 @@
+.rectangle:after {
+  content: "";
+  position: absolute;
+  margin-top: -101px;
+  margin-left: 106px;
+  width: 10px;
+  height: 200px;
+  transform: rotate(63deg);
+  background-color: #325d6e;
+  z-index: 9999;
+}
+.rectangle:before {
+  content: "";
+  position: absolute;
+  margin-top: 103px;
+  margin-left: 112px;
+  width: 10px;
+  height: 200px;
+  transform: rotate(115deg);
+  background-color: #325d6e;
+  z-index: 9999;
+}
